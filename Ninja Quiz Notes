@@ -1,0 +1,28 @@
+Ninja Quiz notes
+
+HTML Template
+
+Bootstrap is preferable when learning JS, saves CSS complications
+
+Navbars are often pinched from Bootstrap
+
+Modify names/ID so that data can be declared without declaring new object
+
+d-none is a bootstrap class to handle display
+
+Javascript
+
+scrolltTo automatically scrolls to a preset location
+
+Here, it set itself to scrollTo(0, 0);
+0,0 are X Y coordinates
+
+Increase count by interval
+const timer = setInterval(() => {
+result.querySelector('span').textContent = `${output}%`;
+if(output === score){
+clearInterval(timer);
+} else {
+output++;
+}
+}, 10);
