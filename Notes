@@ -1,0 +1,11 @@
+Ninja Quiz notes
+
+HTML Template
+
+Bootstrap is preferable when learning JS, saves CSS complications
+
+Navbars are often pinched from Bootstrap
+
+Modify names/ID so that data can be declared without declaring new object
+
+Javascript
